@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Lokad.ILPack/0.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/Lokad.ILPack.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Lokad.ILPack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lokad.ILPack/0.1.7": {
+      "sha512": "0tNM0zh0zJcjHUt/PHqgeML7OoWof0tiltGLcX2zur8Kjildye01X/RDwTt4Fxru5uIGXQvGHWqkWicvHmpcaQ==",
+      "type": "package",
+      "path": "lokad.ilpack/0.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net46/Lokad.ILPack.dll",
+        "lib/netcoreapp2.1/Lokad.ILPack.dll",
+        "lib/netstandard2.0/Lokad.ILPack.dll",
+        "lokad.ilpack.0.1.7.nupkg.sha512",
+        "lokad.ilpack.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Lokad.ILPack >= 0.1.7"
+    ]
+  },
+  "packageFolders": {
+    "/Users/macbook/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/macbook/Desktop/julia-back/julia-back.csproj",
+      "projectName": "julia-back",
+      "projectPath": "/Users/macbook/Desktop/julia-back/julia-back.csproj",
+      "packagesPath": "/Users/macbook/.nuget/packages/",
+      "outputPath": "/Users/macbook/Desktop/julia-back/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/macbook/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Lokad.ILPack": {
+            "target": "Package",
+            "version": "[0.1.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

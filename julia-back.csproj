@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>julia_back</RootNamespace>
+
+    <Title>JuliadotNET</Title>
+    <Authors>Johnathan Bizzano</Authors>
+    <PackageProjectUrl>https://github.com/HyperSphereStudio/JULIAdotNET</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/HyperSphereStudio/JULIAdotNET/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/HyperSphereStudio/JULIAdotNET</RepositoryUrl>
+  
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="src\julia\Core" />
+      <Folder Include="src\julia\Dynamics" />
+      <Folder Include="src\julia\Statics" />
+      <Folder Include="src\julia\Stdlib" />
+      <Folder Include="src\julia\Utils" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lokad.ILPack" Version="0.1.7" />
+    </ItemGroup>
+  
+
+</Project>

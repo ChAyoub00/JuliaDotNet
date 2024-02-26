@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/julia-back.props" />
+</Project>

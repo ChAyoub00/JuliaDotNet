@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zLmYgVXr+rOBmj3slkyjC8vV5ZIf6SmFQ9A8sKhdWJ5elukjl4/ADtx/tv6PuOc4A3SeLPAVuk2lo88oydu1tw==",
+  "success": true,
+  "projectFilePath": "/Users/macbook/Desktop/julia-back/julia-back.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbook/.nuget/packages/lokad.ilpack/0.1.7/lokad.ilpack.0.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}
